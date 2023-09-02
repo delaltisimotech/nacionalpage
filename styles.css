@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    background-color: #271E23;
+}
+
+.web{
+    width: 100%;
+}
+
+.mobile{
+    width: 100%;
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .web{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+  }
