@@ -1,0 +1,98 @@
+/* body {
+    margin: 0px;
+    background-image: url("./images/imagen_manoslevantadas.png");
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+  } */
+  .inProgress_container {
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url("./images/imagen_manoslevantadas.png");
+      background-size: cover; */
+  }
+  .text_logos_container {
+    width: max-content;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+  }
+  .text_container {
+    color: #fff;
+    font-size: 28px;
+  }
+  .describe_text {
+    margin: 0;
+  }
+  .callout_text {
+    color: #ff9027;
+  }
+  .logos_container {
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .logos_container a {
+    color: transparent;
+    text-decoration: none;
+  }
+  .logo_branch {
+    width: 45px;
+    height: 45px;
+    transition: all ease 0.5s;
+  }
+  .logo_branch:hover {
+    width: 60px !important;
+    height: 60px !important;
+  }
+  .visit_pages {
+    color: #c2c2c2;
+    font-size: 12px;
+    text-align: center;
+    margin: 4px 0;
+  }
+  .poweredBy_container {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .poweredBy_container p {
+    margin: 0;
+    color: #757575;
+  }
+  .poweredBy {
+    font-size: 8px;
+  }
+  .altisimoTech {
+    font-size: 12px;
+  }
+  .tech_logo {
+    width: 25px;
+    height: 25px;
+  }
+  
+  @media (max-width: 768px) {
+    .inProgress_container {
+      display: flex;
+      justify-content: center;
+    }
+    .text_logos_container {
+      position: initial;
+      margin-top: 200px;
+      gap: 14px;
+    }
+    .text_container {
+      font-size: 20px;
+    }
+    .poweredBy_container {
+      left: 12px;
+      right: auto;
+    }
+  }
+  
