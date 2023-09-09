@@ -1,6 +1,6 @@
-body {
+.body {
   margin: 0px;
-  background-image: url("./images/imagen_manoslevantadas.png");
+  background-image: url('./images/imagen_manoslevantadas.png');
   background-size: cover;
   font-family: 'Poppins', sans-serif;
 }
