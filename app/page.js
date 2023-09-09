@@ -77,8 +77,8 @@ function HomePage(){
                 className={s.tech_logo}
                 />
                 <article className="text_powered">
-                <p className="poweredBy">PoweredBy</p>
-                <p className="altisimoTech">AltisimoTech</p>
+                    <p className="poweredBy">PoweredBy</p>
+                    <p className="altisimoTech">AltisimoTech</p>
                 </article>
             </div>
         </div>
